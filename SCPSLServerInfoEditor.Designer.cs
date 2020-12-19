@@ -447,6 +447,7 @@ namespace SCPSLServerInfoEditor
             this.Name = "SCPSLServerInfoEditor";
             this.ShowIcon = false;
             this.Text = "SCP:SL Server Info Editor";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SCPSLServerInfoEditor_FormClosing);
             this.toolStrip.ResumeLayout(false);
             this.toolStrip.PerformLayout();
             this.ResumeLayout(false);

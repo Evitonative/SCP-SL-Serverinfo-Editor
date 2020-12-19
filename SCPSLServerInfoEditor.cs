@@ -14,7 +14,7 @@ namespace SCPSLServerInfoEditor
         
         private async void newToolStripButton_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("Do you want to safe?", "New...", MessageBoxButtons.YesNoCancel);
+            var result = MessageBox.Show("Do you want to safe?", "New...", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 await saveFile();
@@ -28,7 +28,7 @@ namespace SCPSLServerInfoEditor
 
         private async void openToolStripButton_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("Do you want to safe?", "Open...", MessageBoxButtons.YesNoCancel);
+            var result = MessageBox.Show("Do you want to safe?", "Open...", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 await saveFile();
@@ -241,6 +241,21 @@ namespace SCPSLServerInfoEditor
                 selected = $"<size={sizeToolStripTextBox.Text}>{selected}</size>";
                 textBox.SelectedText = selected;
             }
+        }
+
+        private async void SCPSLServerInfoEditor_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var result = MessageBox.Show("Safe before exit?", "Exit", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if ( result == DialogResult.Yes)
+            {
+                await saveFile();
+                e.Cancel = false;
+            }
+            else if (result == DialogResult.No)
+            {
+                e.Cancel = false;
+            }
+            else e.Cancel = true;
         }
     }
 }
