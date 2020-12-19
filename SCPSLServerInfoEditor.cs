@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace SCPSLServerInfoEditor
 {
@@ -11,13 +12,37 @@ namespace SCPSLServerInfoEditor
             InitializeComponent();
         }
         
-        private void newToolStripButton_Click(object sender, EventArgs e)
+        private async void newToolStripButton_Click(object sender, EventArgs e)
         {
-            textBox.Clear();
+            var result = MessageBox.Show("Do you want to safe?", "New...", MessageBoxButtons.YesNoCancel);
+            if (result == DialogResult.Yes)
+            {
+                await saveFile();
+                textBox.Clear();
+            }
+            else if (result == DialogResult.No)
+            {
+                textBox.Clear();
+            }
         }
 
-        private void openToolStripButton_Click(object sender, EventArgs e)
+        private async void openToolStripButton_Click(object sender, EventArgs e)
         {
+            var result = MessageBox.Show("Do you want to safe?", "Open...", MessageBoxButtons.YesNoCancel);
+            if (result == DialogResult.Yes)
+            {
+                await saveFile();
+                textBox.Clear();
+            }
+            else if (result == DialogResult.No)
+            {
+                textBox.Clear();
+            }
+            else
+            {
+                return;
+            }
+
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.Title = "Open a file...";
             //openFile.Filter = "Text file (*.txt)|*.txt|All files (*.*)|*.*";
@@ -32,7 +57,7 @@ namespace SCPSLServerInfoEditor
             }
         }
 
-        private void saveToolStripButton_Click(object sender, EventArgs e)
+        private Task saveFile()
         {
             SaveFileDialog saveFile = new SaveFileDialog();
             saveFile.Title = "Save file as...";
@@ -43,6 +68,12 @@ namespace SCPSLServerInfoEditor
                 txtOutput.Write(textBox.Text);
                 txtOutput.Close();
             }
+            return Task.CompletedTask;
+        }
+        
+        private async void saveToolStripButton_Click(object sender, EventArgs e)
+        {
+            await saveFile();
         }
 
         private void copyToolStripButton_Click(object sender, EventArgs e)
