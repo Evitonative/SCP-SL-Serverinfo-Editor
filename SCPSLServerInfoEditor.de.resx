@@ -117,22 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="toolStrip.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="newToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="newToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
   <data name="newToolStripButton.Text" xml:space="preserve">
-    <value>&amp;New</value>
+    <value>Neu</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="openToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -149,134 +137,40 @@
         g6eHO+A/lyD8ARfG3mk9fv1YAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="openToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="openToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
   <data name="openToolStripButton.Text" xml:space="preserve">
-    <value>&amp;Open</value>
-  </data>
-  <data name="saveToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="saveToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>Öffnen</value>
   </data>
   <data name="saveToolStripButton.Text" xml:space="preserve">
-    <value>&amp;Save</value>
-  </data>
-  <data name="Check_Updates_toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
-  </data>
-  <data name="Check_Updates_toolStripMenuItem.Text" xml:space="preserve">
-    <value>Check for Updates</value>
-  </data>
-  <data name="OptionstoolStripDropDownButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="OptionstoolStripDropDownButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 22</value>
-  </data>
-  <data name="OptionstoolStripDropDownButton.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="copyToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="copyToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>Speichern</value>
   </data>
   <data name="copyToolStripButton.Text" xml:space="preserve">
-    <value>&amp;Copy</value>
-  </data>
-  <data name="cutToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="cutToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>Kopieren</value>
   </data>
   <data name="cutToolStripButton.Text" xml:space="preserve">
-    <value>C&amp;ut</value>
-  </data>
-  <data name="pasteToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="pasteToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>Ausschneiden</value>
   </data>
   <data name="pasteToolStripButton.Text" xml:space="preserve">
-    <value>&amp;Paste</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="undoToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="undoToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>Einfügen</value>
   </data>
   <data name="undoToolStripButton.Text" xml:space="preserve">
-    <value>Undo</value>
-  </data>
-  <data name="redoToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="redoToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="redoToolStripButton.Text" xml:space="preserve">
-    <value>Redo</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="boldToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="boldToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>Rückgängig</value>
   </data>
   <data name="boldToolStripButton.Text" xml:space="preserve">
-    <value>B</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="boldToolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextBeforeImage</value>
+    <value>F</value>
   </data>
   <data name="boldToolStripButton.ToolTipText" xml:space="preserve">
-    <value>Bold</value>
-  </data>
-  <data name="italicToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="italicToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>Fett</value>
   </data>
   <data name="italicToolStripButton.Text" xml:space="preserve">
-    <value>I</value>
+    <value>K</value>
   </data>
   <data name="italicToolStripButton.ToolTipText" xml:space="preserve">
-    <value>Italic</value>
-  </data>
-  <data name="underlineToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="underlineToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="underlineToolStripButton.Text" xml:space="preserve">
-    <value>U</value>
+    <value>Kursiv</value>
   </data>
   <data name="underlineToolStripButton.ToolTipText" xml:space="preserve">
-    <value>Underline</value>
+    <value>Unterstrichen</value>
   </data>
-  <data name="colorToolStripDropDownButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="toolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
@@ -290,18 +184,6 @@
         kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
         TgDQASA1MVpwzwAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="colorToolStripDropDownButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="colorToolStripDropDownButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 22</value>
-  </data>
-  <data name="colorToolStripDropDownButton.Text" xml:space="preserve">
-    <value>A</value>
-  </data>
-  <data name="colorToolStripDropDownButton.ToolTipText" xml:space="preserve">
-    <value>Color</value>
   </data>
   <data name="linkToolTipButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -318,78 +200,38 @@
         TgDQASA1MVpwzwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="linkToolTipButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="linkToolTipButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="linkToolTipButton.Text" xml:space="preserve">
-    <value>L</value>
-  </data>
-  <data name="linkToolTipButton.ToolTipText" xml:space="preserve">
-    <value>Link</value>
-  </data>
-  <data name="sizeToolStripTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="sizeToolStripTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
   <data name="sizeToolStripTextBox.Text" xml:space="preserve">
-    <value>Size</value>
-  </data>
-  <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 25</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
-    <value>toolStrip</value>
-  </data>
-  <data name="&gt;&gt;toolStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;toolStrip.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>Größe</value>
   </data>
   <data name="aquacyanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="aquacyanToolStripMenuItem.Text" xml:space="preserve">
-    <value>aqua</value>
+    <value>türkis</value>
   </data>
   <data name="blackToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="blackToolStripMenuItem.Text" xml:space="preserve">
-    <value>black</value>
+    <value>schwarz</value>
   </data>
   <data name="blueToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="blueToolStripMenuItem.Text" xml:space="preserve">
-    <value>blue</value>
+    <value>blau</value>
   </data>
   <data name="brownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="brownToolStripMenuItem.Text" xml:space="preserve">
-    <value>brown</value>
+    <value>braun</value>
   </data>
   <data name="darkblueToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="darkblueToolStripMenuItem.Text" xml:space="preserve">
-    <value>darkblue</value>
+    <value>dunkel blau</value>
   </data>
   <data name="fuchsiamagentaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -401,139 +243,73 @@
     <value>180, 22</value>
   </data>
   <data name="greenToolStripMenuItem.Text" xml:space="preserve">
-    <value>green</value>
+    <value>grün</value>
   </data>
   <data name="greyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="greyToolStripMenuItem.Text" xml:space="preserve">
-    <value>grey</value>
+    <value>grau</value>
   </data>
   <data name="lightblueToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="lightblueToolStripMenuItem.Text" xml:space="preserve">
-    <value>lightblue</value>
+    <value>hell blau</value>
   </data>
   <data name="limeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="limeToolStripMenuItem.Text" xml:space="preserve">
-    <value>lime</value>
+    <value>hell grün</value>
   </data>
   <data name="navyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="navyToolStripMenuItem.Text" xml:space="preserve">
-    <value>navy</value>
+    <value>marineblau</value>
   </data>
   <data name="oliveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="oliveToolStripMenuItem.Text" xml:space="preserve">
-    <value>olive</value>
+    <value>oliv</value>
   </data>
   <data name="orangeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
-  </data>
-  <data name="orangeToolStripMenuItem.Text" xml:space="preserve">
-    <value>orange</value>
   </data>
   <data name="purpleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="purpleToolStripMenuItem.Text" xml:space="preserve">
-    <value>purple</value>
+    <value>lila</value>
   </data>
   <data name="redToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="redToolStripMenuItem.Text" xml:space="preserve">
-    <value>red</value>
+    <value>rot</value>
   </data>
   <data name="silverToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
-  </data>
-  <data name="silverToolStripMenuItem.Text" xml:space="preserve">
-    <value>silver</value>
   </data>
   <data name="tealToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="tealToolStripMenuItem.Text" xml:space="preserve">
-    <value>teal</value>
+    <value>blaugrün</value>
   </data>
   <data name="whiteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="whiteToolStripMenuItem.Text" xml:space="preserve">
-    <value>white</value>
+    <value>weiß</value>
   </data>
   <data name="yellowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="yellowToolStripMenuItem.Text" xml:space="preserve">
-    <value>yellow</value>
-  </data>
-  <data name="CustomColorToolStripTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="CustomColorToolStripTextBox.MaxLength" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="CustomColorToolStripTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="CustomColorToolStripTextBox.Text" xml:space="preserve">
-    <value>#</value>
-  </data>
-  <data name="CustomColorToolStripTextBox.ToolTipText" xml:space="preserve">
-    <value>Custom Color</value>
-  </data>
-  <metadata name="textBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="textBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="textBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="textBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 25</value>
-  </data>
-  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 425</value>
-  </data>
-  <data name="textBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;textBox.Name" xml:space="preserve">
-    <value>textBox</value>
-  </data>
-  <data name="&gt;&gt;textBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>gelb</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -948,247 +724,43 @@
         ByIv3bTMo5yO+BDw8HwfbwXOk3R7YjYzA/4/nPe1LnrbwEYAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="Check_Updates_toolStripMenuItem.Text" xml:space="preserve">
+    <value>Auf Updates prüfen</value>
+  </data>
+  <data name="CustomColorToolStripTextBox.ToolTipText" xml:space="preserve">
+    <value>Eigene Farbe</value>
+  </data>
+  <data name="linkToolTipButton.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="linkToolTipButton.ToolTipText" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="orangeToolStripMenuItem.Text" xml:space="preserve">
+    <value>orange</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SCP:SL Server Info Editor</value>
   </data>
-  <data name="&gt;&gt;newToolStripButton.Name" xml:space="preserve">
-    <value>newToolStripButton</value>
+  <data name="underlineToolStripButton.Text" xml:space="preserve">
+    <value>U</value>
   </data>
-  <data name="&gt;&gt;newToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="CustomColorToolStripTextBox.Text" xml:space="preserve">
+    <value>#</value>
   </data>
-  <data name="&gt;&gt;openToolStripButton.Name" xml:space="preserve">
-    <value>openToolStripButton</value>
+  <data name="OptionstoolStripDropDownButton.Text" xml:space="preserve">
+    <value>Optionen</value>
   </data>
-  <data name="&gt;&gt;openToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="colorToolStripDropDownButton.ToolTipText" xml:space="preserve">
+    <value>Farbe</value>
   </data>
-  <data name="&gt;&gt;saveToolStripButton.Name" xml:space="preserve">
-    <value>saveToolStripButton</value>
+  <data name="colorToolStripDropDownButton.Text" xml:space="preserve">
+    <value>A</value>
   </data>
-  <data name="&gt;&gt;saveToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="redoToolStripButton.Text" xml:space="preserve">
+    <value>Wiederherstellen</value>
   </data>
-  <data name="&gt;&gt;OptionstoolStripDropDownButton.Name" xml:space="preserve">
-    <value>OptionstoolStripDropDownButton</value>
-  </data>
-  <data name="&gt;&gt;OptionstoolStripDropDownButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Check_Updates_toolStripMenuItem.Name" xml:space="preserve">
-    <value>Check_Updates_toolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;Check_Updates_toolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator.Name" xml:space="preserve">
-    <value>toolStripSeparator</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;copyToolStripButton.Name" xml:space="preserve">
-    <value>copyToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;copyToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cutToolStripButton.Name" xml:space="preserve">
-    <value>cutToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;cutToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pasteToolStripButton.Name" xml:space="preserve">
-    <value>pasteToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;pasteToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;undoToolStripButton.Name" xml:space="preserve">
-    <value>undoToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;undoToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;redoToolStripButton.Name" xml:space="preserve">
-    <value>redoToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;redoToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
-    <value>toolStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boldToolStripButton.Name" xml:space="preserve">
-    <value>boldToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;boldToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;italicToolStripButton.Name" xml:space="preserve">
-    <value>italicToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;italicToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;underlineToolStripButton.Name" xml:space="preserve">
-    <value>underlineToolStripButton</value>
-  </data>
-  <data name="&gt;&gt;underlineToolStripButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colorToolStripDropDownButton.Name" xml:space="preserve">
-    <value>colorToolStripDropDownButton</value>
-  </data>
-  <data name="&gt;&gt;colorToolStripDropDownButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;aquacyanToolStripMenuItem.Name" xml:space="preserve">
-    <value>aquacyanToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;aquacyanToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;blackToolStripMenuItem.Name" xml:space="preserve">
-    <value>blackToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;blackToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;blueToolStripMenuItem.Name" xml:space="preserve">
-    <value>blueToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;blueToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;brownToolStripMenuItem.Name" xml:space="preserve">
-    <value>brownToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;brownToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;darkblueToolStripMenuItem.Name" xml:space="preserve">
-    <value>darkblueToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;darkblueToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fuchsiamagentaToolStripMenuItem.Name" xml:space="preserve">
-    <value>fuchsiamagentaToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;fuchsiamagentaToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;greenToolStripMenuItem.Name" xml:space="preserve">
-    <value>greenToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;greenToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;greyToolStripMenuItem.Name" xml:space="preserve">
-    <value>greyToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;greyToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lightblueToolStripMenuItem.Name" xml:space="preserve">
-    <value>lightblueToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;lightblueToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;limeToolStripMenuItem.Name" xml:space="preserve">
-    <value>limeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;limeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;navyToolStripMenuItem.Name" xml:space="preserve">
-    <value>navyToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;navyToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;oliveToolStripMenuItem.Name" xml:space="preserve">
-    <value>oliveToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;oliveToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;orangeToolStripMenuItem.Name" xml:space="preserve">
-    <value>orangeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;orangeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;purpleToolStripMenuItem.Name" xml:space="preserve">
-    <value>purpleToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;purpleToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;redToolStripMenuItem.Name" xml:space="preserve">
-    <value>redToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;redToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;silverToolStripMenuItem.Name" xml:space="preserve">
-    <value>silverToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;silverToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tealToolStripMenuItem.Name" xml:space="preserve">
-    <value>tealToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;tealToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;whiteToolStripMenuItem.Name" xml:space="preserve">
-    <value>whiteToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;whiteToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;yellowToolStripMenuItem.Name" xml:space="preserve">
-    <value>yellowToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;yellowToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CustomColorToolStripTextBox.Name" xml:space="preserve">
-    <value>CustomColorToolStripTextBox</value>
-  </data>
-  <data name="&gt;&gt;CustomColorToolStripTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;linkToolTipButton.Name" xml:space="preserve">
-    <value>linkToolTipButton</value>
-  </data>
-  <data name="&gt;&gt;linkToolTipButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sizeToolStripTextBox.Name" xml:space="preserve">
-    <value>sizeToolStripTextBox</value>
-  </data>
-  <data name="&gt;&gt;sizeToolStripTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>SCPSLServerInfoEditor</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="silverToolStripMenuItem.Text" xml:space="preserve">
+    <value>Silber</value>
   </data>
 </root>

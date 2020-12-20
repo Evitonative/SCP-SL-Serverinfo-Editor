@@ -61,11 +61,32 @@ namespace SCPSLServerInfoEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you want to safe?.
+        /// </summary>
+        internal static string ask_to_save {
+            get {
+                return ResourceManager.GetString("ask_to_save", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There is an Update available
+        ///Installed Version: {0} 
+        ///Latest Version: {1}
+        ///Would you like to download the new version?.
+        /// </summary>
+        internal static string ask_to_update {
+            get {
+                return ResourceManager.GetString("ask_to_update", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _new {
+        internal static System.Drawing.Bitmap c_black {
             get {
-                object obj = ResourceManager.GetObject("new", resourceCulture);
+                object obj = ResourceManager.GetObject("c_black", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +94,9 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap black {
+        internal static System.Drawing.Bitmap c_blue {
             get {
-                object obj = ResourceManager.GetObject("black", resourceCulture);
+                object obj = ResourceManager.GetObject("c_blue", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +104,9 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blue {
+        internal static System.Drawing.Bitmap c_bold {
             get {
-                object obj = ResourceManager.GetObject("blue", resourceCulture);
+                object obj = ResourceManager.GetObject("c_bold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +114,9 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bold {
+        internal static System.Drawing.Bitmap c_brown {
             get {
-                object obj = ResourceManager.GetObject("bold", resourceCulture);
+                object obj = ResourceManager.GetObject("c_brown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +124,159 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap brown {
+        internal static System.Drawing.Bitmap c_cyan {
             get {
-                object obj = ResourceManager.GetObject("brown", resourceCulture);
+                object obj = ResourceManager.GetObject("c_cyan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_darkblue {
+            get {
+                object obj = ResourceManager.GetObject("c_darkblue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_green {
+            get {
+                object obj = ResourceManager.GetObject("c_green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_grey {
+            get {
+                object obj = ResourceManager.GetObject("c_grey", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_lightblue {
+            get {
+                object obj = ResourceManager.GetObject("c_lightblue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_lime {
+            get {
+                object obj = ResourceManager.GetObject("c_lime", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_magenta {
+            get {
+                object obj = ResourceManager.GetObject("c_magenta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_navy {
+            get {
+                object obj = ResourceManager.GetObject("c_navy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_olive {
+            get {
+                object obj = ResourceManager.GetObject("c_olive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_orange {
+            get {
+                object obj = ResourceManager.GetObject("c_orange", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_purple {
+            get {
+                object obj = ResourceManager.GetObject("c_purple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_red {
+            get {
+                object obj = ResourceManager.GetObject("c_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_silver {
+            get {
+                object obj = ResourceManager.GetObject("c_silver", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_teal {
+            get {
+                object obj = ResourceManager.GetObject("c_teal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_white {
+            get {
+                object obj = ResourceManager.GetObject("c_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c_yellow {
+            get {
+                object obj = ResourceManager.GetObject("c_yellow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -131,11 +302,20 @@ namespace SCPSLServerInfoEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Exit.
+        /// </summary>
+        internal static string exit {
+            get {
+                return ResourceManager.GetString("exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cyan {
+        internal static System.Drawing.Bitmap ico_italic {
             get {
-                object obj = ResourceManager.GetObject("cyan", resourceCulture);
+                object obj = ResourceManager.GetObject("ico_italic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +323,9 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap darkblue {
+        internal static System.Drawing.Bitmap ico_new {
             get {
-                object obj = ResourceManager.GetObject("darkblue", resourceCulture);
+                object obj = ResourceManager.GetObject("ico_new", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +333,9 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap green {
+        internal static System.Drawing.Bitmap ico_paste {
             get {
-                object obj = ResourceManager.GetObject("green", resourceCulture);
+                object obj = ResourceManager.GetObject("ico_paste", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +343,9 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap grey {
+        internal static System.Drawing.Bitmap ico_redo {
             get {
-                object obj = ResourceManager.GetObject("grey", resourceCulture);
+                object obj = ResourceManager.GetObject("ico_redo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +353,9 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap italic {
+        internal static System.Drawing.Bitmap ico_save {
             get {
-                object obj = ResourceManager.GetObject("italic", resourceCulture);
+                object obj = ResourceManager.GetObject("ico_save", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +363,9 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lightblue {
+        internal static System.Drawing.Bitmap ico_underline {
             get {
-                object obj = ResourceManager.GetObject("lightblue", resourceCulture);
+                object obj = ResourceManager.GetObject("ico_underline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,160 +373,64 @@ namespace SCPSLServerInfoEditor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lime {
+        internal static System.Drawing.Bitmap ico_undo {
             get {
-                object obj = ResourceManager.GetObject("lime", resourceCulture);
+                object obj = ResourceManager.GetObject("ico_undo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to Open....
         /// </summary>
-        internal static System.Drawing.Bitmap magenta {
+        internal static string open {
             get {
-                object obj = ResourceManager.GetObject("magenta", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("open", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to Open a file....
         /// </summary>
-        internal static System.Drawing.Bitmap navy {
+        internal static string open_file {
             get {
-                object obj = ResourceManager.GetObject("navy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("open_file", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to Save file....
         /// </summary>
-        internal static System.Drawing.Bitmap olive {
+        internal static string save_as {
             get {
-                object obj = ResourceManager.GetObject("olive", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("save_as", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to Save before exit?.
         /// </summary>
-        internal static System.Drawing.Bitmap orange {
+        internal static string save_exit {
             get {
-                object obj = ResourceManager.GetObject("orange", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("save_exit", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to Size.
         /// </summary>
-        internal static System.Drawing.Bitmap paste {
+        internal static string size {
             get {
-                object obj = ResourceManager.GetObject("paste", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("size", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to Update available.
         /// </summary>
-        internal static System.Drawing.Bitmap purple {
+        internal static string update_available {
             get {
-                object obj = ResourceManager.GetObject("purple", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap redo {
-            get {
-                object obj = ResourceManager.GetObject("redo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap save {
-            get {
-                object obj = ResourceManager.GetObject("save", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap silver {
-            get {
-                object obj = ResourceManager.GetObject("silver", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap teal {
-            get {
-                object obj = ResourceManager.GetObject("teal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap underline {
-            get {
-                object obj = ResourceManager.GetObject("underline", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap undo {
-            get {
-                object obj = ResourceManager.GetObject("undo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap undo1 {
-            get {
-                object obj = ResourceManager.GetObject("undo1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap white {
-            get {
-                object obj = ResourceManager.GetObject("white", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap yellow {
-            get {
-                object obj = ResourceManager.GetObject("yellow", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("update_available", resourceCulture);
             }
         }
     }
