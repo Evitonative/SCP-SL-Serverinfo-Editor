@@ -7,4 +7,5 @@ This includes:
 - Links
 - Font size
 - Color
+
 ![](https://raw.githubusercontent.com/Evitonative/SCP-SL-Serverinfo-Editor/main/github_img/window.png)
