@@ -17,12 +17,12 @@ namespace SCPSLServerInfoEditor
         public SCPSLServerInfoEditor()
         {
             InitializeComponent();
-            if(Settings.Default.Update) _ = lookForUpdates();
-
+            if(Settings.Default.Update) lookForUpdates();
+             
             Check_Updates_toolStripMenuItem.Checked = Settings.Default.Update;
         }
 
-        private async Task lookForUpdates()
+        private async void lookForUpdates()
         {
             GitHubClient client = new GitHubClient(new ProductHeaderValue("SCP-SL-Serverinfo-Editor"));
             IReadOnlyList<Release> releases = await client.Repository.Release.GetAll("Evitonative", "SCP-SL-Serverinfo-Editor");
